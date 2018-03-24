@@ -9,3 +9,10 @@ CREATE TABLE liste(
     others INT,
     samsunglaser INT
 );
+
+CREATE TABLE bruker(
+    brukernavn CHAR(2) PRIMARY KEY,
+    dato DATE,
+    tidfor TIME,
+    tidetter TIME
+);
